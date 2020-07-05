@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0050" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-03T04:02:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Webapp Status" timestamp="2020-07-03T04:02:47" tests="2" file="/home/node/tests/test.js" time="0.0050" failures="1">
+    <testcase name="Webapp Status Expect HTTP status 200" time="0.0000" classname="Expect HTTP status 200">
+      <failure message="Cannot read property &apos;status&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'status' of undefined
+    at Test.<anonymous> (test.js:17:10)
+    at Test.assert (node_modules/supertest/lib/test.js:181:6)
+    at localAssert (node_modules/supertest/lib/test.js:131:12)
+    at node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:728:3)
+    at ClientRequest.req.once.err (node_modules/superagent/lib/node/index.js:647:10)
+    at Socket.socketErrorListener (_http_client.js:324:9)
+    at connectErrorNT (net.js:1034:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)]]></failure>
+    </testcase>
+    <testcase name="Webapp Status Mocha Control Test" time="0.0050" classname="Mocha Control Test">
+    </testcase>
+  </testsuite>
+</testsuites>
